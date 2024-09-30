@@ -11,3 +11,12 @@ h1 {
     color: #4CAF50;
     margin-bottom: 30px;
 }
+
+section {
+    background: #ffff00;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
