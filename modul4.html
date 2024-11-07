@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modul 6 - Perpustakaan Digital</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="modul1.css">
+        <link rel="stylesheet" href="modul4.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="modul6.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <script src="modul6.js" defer></script>
+    </head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Digital Library</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Layanan <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="perpanjangan.html">Perpanjangan Peminjaman Buku</a></li>
+                            <li><a href="pemesanan.html">Pemesanan Buku</a></li>
+                            <li><a href="tabel.html">Tabel Bahan Buku</a></li>
+                            <li><a href="#">Sirkulasi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Daftar Anggota.html">Daftar Anggota</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Tugas <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="modul1.html">MODUL 1</a></li>
+                            <li><a href="modul2.html">MODUL 2</a></li>
+                            <li><a href="modul3.html">MODUL 3</a></li>
+                            <li><a href="modul4.html">MODUL 4</a></li>
+                            <li><a href="modul5.html">MODUL 5</a></li>
+                            <li><a href="modul6.html">MODUL 6</a></li>
+                            <li><a href="modul7.html">MODUL 7</a></li>
+                            <li><a href="modul8.html">MODUL 8</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-content container">
+            <div class="column">
+                <h2>Selamat Datang di Website Perpustakaan SUKA BACA</h2>
+            </div>
+            <div class="column">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Judul Buku</th>
+                            <th>Penulis</th>
+                            <th>Tahun Terbit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Belajar HTML</td>
+                            <td>Trisah Waini Situmorang </td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>CSS untuk Pemula</td>
+                            <td>Jane Doe</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript Lanjutan</td>
+                            <td>John Smith</td>
+                            <td>2021</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>Tentang Kami</h3>
+                    <p>Perpustakaan Padjadjaran. adalah platform perpustakaan digital yang menyediakan akses ke berbagai sumber daya pendidikan dan literatur.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                        <li><a href="layanan.html">Layanan</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-phone"></i> +62 123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@digitallibrary.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Digital Library Trisah Waini Situmorang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
