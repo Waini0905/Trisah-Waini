@@ -1,0 +1,101 @@
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff; /* Background color */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow for aesthetics */
+    height: 60px; /* Set a fixed height for the header */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #020e11;
+    padding: 40px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section.about p {
+    line-height: 1.5;
+}
+
+.footer-section.links ul {
+    list-style-type: none;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #070101;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+    color: #007bff;
+}
+
+.footer-section.contact p {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+/* Add these styles to your existing CSS file */
+main {
+    margin-top: 80px; /* Add margin to prevent content from hiding under fixed header */
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Example 3: External Style Sheet */
+.external-style-example {
+    background-color: #2196F3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.external-style-example h2 {
+    color: white;
+    text-align: center;
+}
+
+.external-style-example p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+}
